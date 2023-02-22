@@ -1,12 +1,12 @@
 # useEffect - React Hooks
 
-### What is useEffect?
+## What is useEffect?
 
 The `useEffect` hook is a built-in hook in React that allows you to handle side effects in functional components. Side effects are anything that affects the state of the application outside of the component, such as fetching data, modifying the DOM, or subscribing to events.
 
 The `useEffect` hook takes two parameters: a callback function and an array of dependencies. The callback function is called after the component is rendered, and can be used to perform any side effects. The array of dependencies is optional and is used to control when the callback function is called.
 
-### Data fetching using API example.
+## Data fetching using API example.
 
 ```javascript
 import { useState, useEffect } from 'react';
@@ -30,7 +30,7 @@ function MyComponent() {
 
 In this example, the `useEffect` hook is used to fetch data from an API when the component is first rendered. The `useState` hook is used to store the data in the component's state. The empty array `[]` is passed as the second parameter to `useEffect`, which means that the callback function will only be called once when the component is first rendered.
 
-### **Dependency Array.**
+## **Dependency Array.**
 
 To make the Hook run on a particular state change, we can supply the variable as a dependency in the array.
 
@@ -44,7 +44,7 @@ In this example, the `useEffect` Hook will run on the first render and after eve
 
 We can also specify multiple variables in array and when one of them changes `useEffect` will run again.
 
-### Rendering Cycle.
+## Rendering Cycle.
 
 When a component that uses the `useEffect` hook is rendered, the following steps occur:
 
@@ -63,7 +63,7 @@ It's important to note that the `useEffect` hook can cause the component to re-r
 
 `useEffect` runs after a prop, state or context changes. It runs after every render unless specified by the dependency array.
 
-### Clean Up function.
+## Clean Up function.
 
 We can return a function from useEffect which will run right before the component will unmount.
 
