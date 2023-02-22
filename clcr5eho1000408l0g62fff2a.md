@@ -93,15 +93,15 @@ Note that the module bundler has removed the explicit imports and exports and in
 
 ## Commonly used Module bundlers.
 
-1. Webpack: Webpack is one of the most popular module bundlers for JavaScript applications. It is highly configurable and has a large number of plugins and loaders available, which makes it suitable for use in a wide range of applications. Webpack is also highly performant and can be used to build large and complex applications.
+1. **Webpack**: Webpack is one of the most popular module bundlers for JavaScript applications. It is highly configurable and has a large number of plugins and loaders available, which makes it suitable for use in a wide range of applications. Webpack is also highly performant and can be used to build large and complex applications.
     
-2. Rollup: Rollup is another popular module bundler that is focused on performance and outputs small, optimized bundles. It is particularly well-suited for library authors who want to publish their libraries as modular, easy-to-use packages. Rollup also supports tree-shaking, which helps reduce the size of the final bundle by removing unused code.
+2. **Rollup**: Rollup is another popular module bundler that is focused on performance and outputs small, optimized bundles. It is particularly well-suited for library authors who want to publish their libraries as modular, easy-to-use packages. Rollup also supports tree-shaking, which helps reduce the size of the final bundle by removing unused code.
     
-3. Parcel: Parcel is a relatively new module bundler that is focused on simplicity and ease of use. It has a fast development setup time and requires minimal configuration, making it a good choice for small to medium-sized projects. It also has a fast build time and is capable of hot module reloading, which allows you to see changes in your application immediately without having to reload the entire page.
+3. **Parcel**: Parcel is a relatively new module bundler that is focused on simplicity and ease of use. It has a fast development setup time and requires minimal configuration, making it a good choice for small to medium-sized projects. It also has a fast build time and is capable of hot module reloading, which allows you to see changes in your application immediately without having to reload the entire page.
     
-4. Browserify: Browserify is one of the oldest module bundlers for JavaScript and was one of the first tools to allow using CommonJS modules in the browser. It is highly modular and has a large number of plugins available, making it suitable for use in a wide range of applications. However, it is not as performant as some of the other module bundlers and may not be the best choice for large and complex applications.
+4. **Browserify**: Browserify is one of the oldest module bundlers for JavaScript and was one of the first tools to allow using CommonJS modules in the browser. It is highly modular and has a large number of plugins available, making it suitable for use in a wide range of applications. However, it is not as performant as some of the other module bundlers and may not be the best choice for large and complex applications.
     
-5. Vite: Vite is a relatively new module bundler that is focused on speed and efficient development. It was designed with modern JavaScript and web development in mind and aims to provide a fast and efficient development experience for JavaScript applications.
+5. **Vite** (*recommended*): Vite is a relatively new module bundler that is focused on speed and efficient development. It was designed with modern JavaScript and web development in mind and aims to provide a fast and efficient development experience for JavaScript applications.
     
     One of the key features of Vite is that it performs all bundling in the background, allowing you to see your changes immediately in the browser without having to wait for a build to finish. This speeds up development and makes it easier to quickly iterate on your application.
     
