@@ -1,6 +1,6 @@
 # Introduction - Module Bundlers
 
-### **What is a module bundler?**
+## **What is a module bundler?**
 
 Module bundlers are tools that help in managing dependencies in JavaScript applications. They take the multiple JavaScript files in an application and combine them into a single file (bundle), making it easier to load the application in a browser. This also helps in reducing the number of network requests required to load an application, leading to improved performance.
 
@@ -19,7 +19,7 @@ Some of the popular module bundlers are:
 
 Module bundlers also come with various plugins and configuration options that allow you to perform various tasks such as transpiring code, handling CSS files, etc.
 
-### Why use module bundlers?
+## Why use module bundlers?
 
 1. Code organization: Module bundlers allow you to organize your code into smaller, reusable units called modules. Each module can export and import functions, objects, and other values from other modules, making it easier to structure your code and reuse code across your application.
     
@@ -34,7 +34,7 @@ Module bundlers also come with various plugins and configuration options that al
 
 In summary, module bundlers are a key tool for building modern JavaScript applications, providing a way to organize, manage, and optimize your code, as well as manage dependencies and assets.
 
-### **Why combine all JS files?**
+## **Why combine all JS files?**
 
 In this era, all modern browsers support the Ecma script modules which means we can use import and export in our project and the browser will know how to handle that, we only need to specify an entry point.
 
@@ -60,7 +60,7 @@ And what if a user is using an old version of the browser? Do we need to write s
 
 No, this is where module bundlers are used to combine all those files in such a way that they can be understood by the browser. These are not just JS files a module bundler outputs an optimized bundle that contains all JS files, CSS files & assets like images, fonts etc.
 
-### How module bundlers work.
+## How module bundlers work.
 
 Here's a simple example to illustrate how a module bundler works.
 
@@ -91,7 +91,7 @@ In this example, `app.js` is dependent on `math.js` as it is importing the `add`
 
 Note that the module bundler has removed the explicit imports and exports and instead used an anonymous closure to create a self-contained bundle that can be executed in any JavaScript environment. This is just a simple example, but in real-world applications, the bundle would contain many more dependencies and be much larger. The module bundler takes care of managing these dependencies and generating a single file that can be easily used in a browser or any other JavaScript environment.
 
-### Commonly used Module bundlers.
+## Commonly used Module bundlers.
 
 1. Webpack: Webpack is one of the most popular module bundlers for JavaScript applications. It is highly configurable and has a large number of plugins and loaders available, which makes it suitable for use in a wide range of applications. Webpack is also highly performant and can be used to build large and complex applications.
     
