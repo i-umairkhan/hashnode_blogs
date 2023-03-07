@@ -1,4 +1,12 @@
-# useEffect - React Hooks
+---
+title: "useEffect - React Hooks"
+datePublished: Thu Feb 16 2023 11:17:17 GMT+0000 (Coordinated Universal Time)
+cuid: cle70cbva000c09i93fwe7fe9
+slug: useeffect-react-hooks
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/irRpXAC30fE/upload/77a8829f17766225199b81f262347512.jpeg
+tags: reactjs, reacthooks
+
+---
 
 ## What is useEffect?
 
