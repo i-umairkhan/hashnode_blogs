@@ -1,4 +1,12 @@
-# useContext - React Hooks
+---
+title: "useContext - React Hooks"
+datePublished: Wed Feb 22 2023 12:05:43 GMT+0000 (Coordinated Universal Time)
+cuid: clefmpqgo000309ml0dx9ew9k
+slug: usecontext-react-hooks
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/yTo1u-i1pVI/upload/159e6188030f8eae938965907dfbdae0.jpeg
+tags: reactjs, reacthooks
+
+---
 
 ## What is useContext?
 
