@@ -1,4 +1,12 @@
-# Introduction - Module Bundlers
+---
+title: "Introduction - Module Bundlers"
+datePublished: Wed Jan 11 2023 04:14:54 GMT+0000 (Coordinated Universal Time)
+cuid: clcr5eho1000408l0g62fff2a
+slug: introduction-module-bundlers
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/NCvvr837fz8/upload/404f8164eabe09ad8172d6223b7e2083.jpeg
+tags: javascript, modules, bundlers
+
+---
 
 ## **What is a module bundler?**
 
